@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Kalkulator Sederhana</title>
+    <script language = "Javascript">
+
+        function operasi(operator) {
+            var bil1 = parseFloat(document.getElementById('bil1').value);
+            var bil2 = parseFloat(document.getElementById('bil2').value);
+            var hasil;
+
+            switch(operator){
+                case '+':
+                    hasil = bil1 + bil2;
+                    break;
+                case '-':
+                    hasil = bil1 - bil2;
+                    break;
+                case 'x':
+                    hasil = bil1 * bil2;
+                    break;
+                case '/':
+                    hasil = bil1 / bil2;
+                    break;
+                default:
+                    hasil = "Tidak valid";
+            }
+
+            document.getElementById('hasil').value = hasil;
+
+        }
+    </script>
+    </head>
+    <body>
+        <style>
+            body{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 1.5rem;
+                background-color: #bdbdbd;
+            }
+            span{
+                color: rgb(243, 232, 154);
+            }
+            .kolom{
+                align-items: center;
+                justify-content: center;
+                padding: 1rem;
+                text-align: center;
+            }
+            .kolom input{
+                width: 450px;
+                height: 80px;
+                font-size: 1.5rem;
+                border: 0;
+                border-radius: 1rem;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            }
+
+            .kolom button{
+                width: 150px;
+                height: 50px;
+                font-size: 1.5rem;
+                background-color: rgb(243, 232, 154);
+                border: 0;
+                border-radius: 1rem;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            }
+        </style>
+
+
+        <div class="kolom">
+            <h1>Kalkulator <span> Sederhana</span></h1>
+
+            <label for="bil1">Bilangan 1: </label>
+            <input type="number" id="bil1"><br>
+        
+            <br>
+
+            <label for="bil2">Bilangan 2: </label>
+            <input type="number" id="bil2"><br>
+            
+            <br><br>
+        
+            <label for="hasil">Hasil: </label><br><br>
+            <input type="number" id="hasil"readonly><br>
+
+            <br><br>
+        
+            <button onclick="operasi('+')" > + </button>
+            <button onclick="operasi('-')" > - </button>
+            <button onclick="operasi('x')" > x </button>
+            <button onclick="operasi('/')" > / </button>
+        </div>
+    </body>
+</html>

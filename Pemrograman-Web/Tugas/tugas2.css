@@ -1,0 +1,130 @@
+/*
+Nama      : Maritza Ratnamaya N.
+NPM       : 140810230076
+Kelas     : B
+Deskripsi : Membuat halaman website berisi biodata diri menggunakan HTML dan CSS
+*/
+
+/* border */
+.border-top {
+    border-top: 50px solid #787675;
+}
+.border-bottom {
+    border-bottom: 50px solid #787675;
+    padding: 1rem;
+}
+
+/* keseluruhan halaman */
+body{
+    background-color: lightyellow;
+    background-size: cover;
+    font-family: "Lucida Console", "Monaco", monospace;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+/* header halaman */
+.satu {
+    text-align: center;
+    text-indent: 50px;
+    color: #78bae6;
+}
+h1{
+    margin-top: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+h2 {
+    font-size: 1.5rem;
+    color: #78bae6;
+    margin-bottom: 1rem;
+}
+
+/* container foto dan tabel */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+}
+
+/* tabel biodata */
+table{
+    border-collapse: collapse;
+    width: 600px;
+    font-size: 1.2rem;
+}
+th{
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #fff;
+    color: #787675;
+}
+tr:nth-child(odd){
+    background-color: #78bae6;
+    color: #fff;
+}
+
+/* foto */
+.foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+}
+.foto1{
+    justify-content: left;
+    height: 175px;
+    width: 170px;
+    padding-bottom: 2rem;
+    padding-right: 9rem;
+}
+.foto2{
+    justify-content: left;
+    padding-right: 4rem;
+    height: 200px;
+    width: 170px;
+}
+.foto3{
+    justify-content: right;
+    height: 200px;
+    width: 170px;
+    padding-bottom: 2rem;
+    padding-left: 9rem;
+}
+.foto4{
+    justify-content: right;
+    padding-left: 4rem;
+    height: 200px;
+    width: 170px;
+}
+
+/* for more */
+.satu h3{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+/* icon link */
+.icon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.icon i{
+    font-size: 1rem; 
+    color: #78bae6; 
+    margin: 0.5rem;
+}
+.icon span{
+    padding-right: 1.5rem;
+    color:#787675;
+}

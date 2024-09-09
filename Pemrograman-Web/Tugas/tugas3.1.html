@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Konversi Nilai</title>
+    <SCRIPT language="Javascript">
+        function convert() {
+            var nilai = document.getElementById("T1").value;
+            var hasil = "";
+    
+            if (nilai >= 0 && nilai <= 40){
+                hasil = "E";
+            } else if(nilai <= 55 && nilai > 40 ){
+                hasil = "D";
+            } else if(nilai > 55 && nilai <= 60){
+                hasil = "C";
+            } else if(nilai > 60 && nilai <=65){
+                hasil = "BC";
+            } else if (nilai > 65 && nilai <= 70){
+                hasil = "B";
+            } else if (nilai > 70 && nilai <= 80){
+                hasil = "AB";
+            } else if (nilai > 80 && nilai <= 100){
+                hasil = "A";
+            } else{
+                hasil = "Tidak valid";
+            }
+    
+            document.getElementById("T2").value = hasil;
+    
+        }
+    </SCRIPT>
+</head>
+<body>
+    <style>
+        body{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1.5rem;
+            background-color: #bdbdbd;
+        }
+        span{
+            color: rgb(243, 232, 154);
+        }
+        .kolom{
+            align-items: center;
+            justify-content: center;
+            padding: 4rem;
+            text-align: center;
+        }
+        .kolom input{
+            width: 350px;
+            height: 50px;
+            font-size: 1.5rem;
+            text-align: center;
+            border: 0;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        .kolom button{
+            width: 150px;
+            height: 50px;
+            font-size: 1.5rem;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgb(243, 232, 154);
+            border: 0;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <div class="kolom">
+        <h1>Converter <span> Nilai </span></h1>
+        <label for="T1">Nilai Angka</label><br><br>
+        <input type="number" id="T1" size="20"><br><br>
+
+        <label for="T2">Nilai Huruf</label><br><br>
+        <input type="text" id="T2" size="20"readonly><br><br>
+        <br>
+
+        <button onclick="convert()"> Convert -> </button>
+    </div>
+</body>
+</html>
