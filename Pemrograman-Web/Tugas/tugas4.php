@@ -81,13 +81,7 @@ Deskripsi   : Membuat web form input data menggunakan PHP
     
     <br>
 
-    <?php if(isset($data_baru)):?>
-        <?php
-            $input = mysqli_query($koneksi, "SELECT * FROM input WHERE npm = '$data_baru'");
-            $cetak = mysqli_fetch_array($input);
-
-            if($cetak):
-        ?>
+    <?php if(isset($_POST['simpan'])):?>
     <h1>Data Hasil Input</h1>
     <table>
         <tr>
@@ -100,18 +94,15 @@ Deskripsi   : Membuat web form input data menggunakan PHP
             <td>Hobi</td>
         </tr>
                 <tr>
-                    <td><?= $cetak['npm']; ?></td>
-                    <td style="text-transform: uppercase;"><?= $cetak['nama']; ?></td>
-                    <td style="text-transform: uppercase;"><?= $cetak['alamat']; ?></td>
-                    <td><?= $cetak['tempat_lahir']; ?></td>
-                    <td><?= $cetak['tanggal_lahir']; ?></td>
-                    <td><?= $cetak['jenis_kelamin']; ?></td>
-                    <td><?= $cetak['hobi']; ?></td>
+                <td><?= ($npm); ?></td>
+                <td style="text-transform: uppercase;"><?= ($nama); ?></td>
+                <td style="text-transform: uppercase;"><?= ($alamat); ?></td>
+                <td><?= ($tempat_lahir); ?></td>
+                <td><?= ($tanggal_lahir); ?></td>
+                <td><?= ($jenis_kelamin); ?></td>
+                <td><?= ($hobi); ?></td>
                 </tr>
         </table>
-        <?php else: ?>
-            <p>Data tidak ditemukan!</p>
-        <?php endif; ?>
         <?php endif; ?>
     </center>
  </body>
