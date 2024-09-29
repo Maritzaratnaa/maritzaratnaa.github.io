@@ -1,31 +1,19 @@
+<?php
 /*
-nama        : Maritza Ratnamaya N.
-npm         : 140810230076
-kelas       : B
-deskripsi   : Membuat web form input data menggunakan PHP
+Nama        : Maritza Ratnamaya N.
+NPM         : 140810230076
+Kelas       : B
+Deskripsi   : Membuat web form input data menggunakan PHP
 */
 
-
-<?php
-    $koneksi = mysqli_connect("localhost:3306", "root", "", "tugas4");
     if(isset($_POST['simpan'])){
-        $npm = mysqli_real_escape_string($koneksi, $_POST['npm']);
-        $nama = mysqli_real_escape_string($koneksi, $_POST['nama']);
-        $alamat = mysqli_real_escape_string($koneksi, $_POST['alamat']);
-        $tempat_lahir = mysqli_real_escape_string($koneksi, $_POST['tempat_lahir']);
-        $tanggal_lahir = mysqli_real_escape_string($koneksi, $_POST['tanggal_lahir']);
-        $jenis_kelamin = mysqli_real_escape_string($koneksi, $_POST['jenis_kelamin']);
-        $hobi = mysqli_real_escape_string($koneksi, $_POST['hobi']);
-
-        $simpan = mysqli_query($koneksi, "INSERT INTO input VALUES ('$npm', '$nama', '$alamat', '$tempat_lahir', '$tanggal_lahir', '$jenis_kelamin', '$hobi')");
-
-        if($simpan){
-            $data_baru = $npm;
-            echo "<script>alert('Data berhasil disimpan!');</script>";
-        } else{
-            echo "<script>alert('Data gagal disimpan!');</script>";
-        }
-
+        $npm = $_POST['npm'];
+        $nama = $_POST['nama'];
+        $alamat = $_POST['alamat'];
+        $tempat_lahir = $_POST['tempat_lahir'];
+        $tanggal_lahir = $_POST['tanggal_lahir'];
+        $jenis_kelamin = $_POST['jenis_kelamin'];
+        $hobi = $_POST['hobi'];
     }
  ?>
  <html lang="en">
