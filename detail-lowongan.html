@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Analisis Pasar Kerja Data Analyst AS - Case Study</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div data-component="sidebar"></div>
+
+    <!-- #MAIN CONTENT -->
+    <div class="main-content">
+      <div data-component="navbar" data-nav-type="detail"></div>
+
+      <article class="case-study-card" style="display: block;">
+        <div class="case-study-header">
+          <a href="index.html#portofolio" class="btn-back">
+            <ion-icon name="arrow-back-outline"></ion-icon> <span data-i18n="btn-back">Kembali ke Portofolio</span>
+          </a>
+        </div>
+
+        <div class="case-study">
+          <!-- Hero Section -->
+          <div class="case-study-hero">
+            <h2 class="h2 article-title" style="text-transform: none;" data-i18n="lowongan-title">Dashboard Analisis Pasar Kerja Data Analyst AS</h2>
+            <p class="case-study-subtitle" data-i18n="lowongan-page-subtitle">Dashboard interaktif berbasis Streamlit untuk menganalisis karakteristik pasar kerja Data Analyst di Amerika Serikat (AS) berdasarkan data lowongan pekerjaan dari tahun 2020–2025.</p>
+            
+            <div class="project-tech-stack" style="justify-content: center;">
+              <span class="tech-badge">Streamlit</span>
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Pandas</span>
+              <span class="tech-badge">Plotly Express</span>
+            </div>
+
+            <div class="case-study-actions">
+              <a href="https://github.com/Maritzaratnaa/Analisis-Lowongan-Data-Analyst-US" target="_blank" rel="noopener noreferrer" class="btn-action btn-accent">
+                <ion-icon name="logo-github"></ion-icon> GitHub Repository
+              </a>
+              <a href="https://dashboard-lowongan-data-analyst-as.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn-action btn-accent">
+                <ion-icon name="open-outline"></ion-icon> Live Dashboard
+              </a>
+            </div>
+
+            <figure class="hero-dashboard-img slider-container" data-slider style="background: var(--eerie-black-2); display: flex; align-items: center; justify-content: center;">
+              <div class="slider-track">
+                <img src="./assets/images/lowongan/project-lowongan.gif" alt="Analisis lowongan 1" loading="lazy">
+                <img src="./assets/images/lowongan/project-lowongan1.png" alt="Analisis lowongan 2" loading="lazy">
+                <img src="./assets/images/lowongan/project-lowongan2.png" alt="Analisis lowongan 3" loading="lazy">
+                <img src="./assets/images/lowongan/project-lowongan3.png" alt="Analisis lowongan 4" loading="lazy">
+                <img src="./assets/images/lowongan/project-lowongan4.png" alt="Analisis lowongan 5" loading="lazy">
+                <img src="./assets/images/lowongan/project-lowongan5.png" alt="Analisis lowongan 6" loading="lazy">
+              </div>
+              <div class="slider-dots"></div>
+            </figure>
+          </div>
+
+          <!-- Overview Proyek -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="lowongan-overview-title">Overview Proyek</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n-html="lowongan-overview-text">
+              Dashboard ini berfokus pada analisis <strong>kualifikasi pendidikan, kebutuhan hard skill dan soft skill, tingkat senioritas, pengalaman kerja, lokasi lowongan, perusahaan, serta struktur deskripsi pekerjaan</strong>.
+            </p>
+
+            <div class="insights-grid" style="margin-top: 15px;">
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="options-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="lowongan-feat1-title">Filter Data</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-feat1-text">Pengguna dapat melakukan penyaringan data berdasarkan tahun, senioritas, lokasi, dan rentang pengalaman kerja.</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="stats-chart-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="lowongan-feat2-title">Ringkasan Data</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-feat2-text">Menampilkan gambaran umum pasar kerja Data Analyst.</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="school-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="lowongan-feat3-title">Kualifikasi Pendidikan</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-feat3-text">Menganalisis persyaratan pendidikan yang tercantum dalam lowongan.</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="lowongan-feat4-title">Analisis Keterampilan</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-feat4-text">Menganalisis keterampilan hard skill maupun soft skill umum yang paling banyak dicari oleh perusahaan.</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="document-text-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="lowongan-feat5-title">Struktur Deskripsi</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-feat5-text">Menganalisis karakteristik teks pada deskripsi lowongan.</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="table-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="lowongan-feat6-title">Eksplorasi Data</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-feat6-text">Menyediakan tabel interaktif untuk mengeksplorasi data lowongan berdasarkan filter yang aktif.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Normalisasi Perbandingan Antar Tahun -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="lowongan-norm-title">Normalisasi Perbandingan Antar Tahun</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 10px; margin-left: 0;" data-i18n="lowongan-norm-text1">
+              Jumlah lowongan yang tersedia pada setiap tahun tidak selalu sama. Oleh karena itu, perbandingan tren antar tahun tidak hanya menggunakan jumlah absolut.
+            </p>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n-html="lowongan-norm-text2">
+              Untuk analisis tren pendidikan dan keterampilan, digunakan <strong>persentase / proporsi yang dinormalisasi terhadap total lowongan pada masing-masing tahun</strong>.
+            </p>
+
+            <div class="code-block" style="margin-bottom: 15px;">Persentase = (Jumlah lowongan yang mencantumkan kategori / Total lowongan pada tahun tersebut) × 100%</div>
+
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n="lowongan-norm-text3">
+              Pendekatan ini digunakan agar perubahan proporsi suatu kategori dapat dibandingkan secara lebih adil antar tahun meskipun jumlah sampel lowongan berbeda. Contohnya, jika terdapat 1.000 lowongan pada tahun tertentu dan 300 di antaranya mencantumkan SQL:
+            </p>
+
+            <div class="code-block" style="margin-bottom: 15px;">(300 / 1.000) × 100% = 30%</div>
+
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 10px; margin-left: 0;" data-i18n-html="lowongan-norm-text4">
+              Dengan demikian, visualisasi tren menunjukkan <strong>proporsi lowongan yang mencantumkan suatu kategori</strong>, bukan sekadar perubahan jumlah lowongan absolut.
+            </p>
+            <p class="project-desc" style="color: var(--orange-yellow-crayola); font-size: var(--fs-6); line-height: 1.6; margin-left: 0;" data-i18n="lowongan-norm-note">
+              Catatan: Satu lowongan dapat mencantumkan lebih dari satu pendidikan, jurusan, hard skill, atau soft skill. Oleh karena itu, persentase kategori tidak selalu berjumlah 100%.
+            </p>
+          </div>
+
+          <!-- Informasi Dataset -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="lowongan-ds-title">Informasi Dataset</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n="lowongan-ds-intro">
+              Dashboard menggunakan gabungan dataset dari Kaggle yaitu:
+            </p>
+            <ul style="list-style-type: disc; margin-left: 20px; color: var(--light-gray); font-size: var(--fs-6); line-height: 1.8; margin-bottom: 20px;">
+              <li>Lowongan 2020: <a href="https://www.kaggle.com/datasets/andrewmvd/data-analyst-jobs" target="_blank" rel="noopener noreferrer" style="color: var(--orange-yellow-crayola); text-decoration: underline;">Kaggle Data Analyst Jobs 2020</a></li>
+              <li>Lowongan 2022 &amp; 2023: <a href="https://www.kaggle.com/datasets/simonebaldi/data-analyst-jobs-posting" target="_blank" rel="noopener noreferrer" style="color: var(--orange-yellow-crayola); text-decoration: underline;">Kaggle Data Analyst Jobs Posting 2022 &amp; 2023</a></li>
+              <li>Lowongan 2024: <a href="https://www.kaggle.com/datasets/asaniczka/1-3m-linkedin-jobs-and-skills-2024" target="_blank" rel="noopener noreferrer" style="color: var(--orange-yellow-crayola); text-decoration: underline;">Kaggle LinkedIn Jobs and Skills 2024</a></li>
+              <li>Lowongan 2025: <a href="https://www.kaggle.com/datasets/joykimaiyo18/linkedin-data-jobs-dataset" target="_blank" rel="noopener noreferrer" style="color: var(--orange-yellow-crayola); text-decoration: underline;">Kaggle LinkedIn Data Jobs Dataset 2025</a></li>
+            </ul>
+
+            <div class="custom-table-wrapper">
+              <table class="custom-table">
+                <thead>
+                  <tr>
+                    <th data-i18n="lowongan-ds-col1">Kolom</th>
+                    <th data-i18n="lowongan-ds-col2">Deskripsi</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>posisi</code></td>
+                    <td data-i18n="lowongan-ds-r1">Posisi pekerjaan</td>
+                  </tr>
+                  <tr>
+                    <td><code>perusahaan</code></td>
+                    <td data-i18n="lowongan-ds-r2">Nama perusahaan</td>
+                  </tr>
+                  <tr>
+                    <td><code>lokasi</code></td>
+                    <td data-i18n="lowongan-ds-r3">Lokasi / negara bagian</td>
+                  </tr>
+                  <tr>
+                    <td><code>pendidikan</code></td>
+                    <td data-i18n="lowongan-ds-r4">Tingkat pendidikan yang disyaratkan</td>
+                  </tr>
+                  <tr>
+                    <td><code>jurusan</code></td>
+                    <td data-i18n="lowongan-ds-r5">Bidang studi / jurusan</td>
+                  </tr>
+                  <tr>
+                    <td><code>pengalaman</code></td>
+                    <td data-i18n="lowongan-ds-r6">Minimal pengalaman kerja dalam tahun</td>
+                  </tr>
+                  <tr>
+                    <td><code>level</code></td>
+                    <td data-i18n="lowongan-ds-r7">Tingkat senioritas posisi</td>
+                  </tr>
+                  <tr>
+                    <td><code>hard_skill</code></td>
+                    <td data-i18n="lowongan-ds-r8">Keterampilan teknis yang dibutuhkan</td>
+                  </tr>
+                  <tr>
+                    <td><code>soft_skill</code></td>
+                    <td data-i18n="lowongan-ds-r9">Keterampilan interpersonal / profesional</td>
+                  </tr>
+                  <tr>
+                    <td><code>deskripsi</code></td>
+                    <td data-i18n="lowongan-ds-r10">Deskripsi lengkap lowongan</td>
+                  </tr>
+                  <tr>
+                    <td><code>deskripsi_len</code></td>
+                    <td data-i18n="lowongan-ds-r11">Panjang deskripsi dalam karakter</td>
+                  </tr>
+                  <tr>
+                    <td><code>tahun</code></td>
+                    <td data-i18n="lowongan-ds-r12">Tahun publikasi lowongan</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-top: 15px; margin-left: 0;" data-i18n-html="lowongan-ds-note">
+              Nilai pengalaman yang tidak dapat ditentukan dari deskripsi disimpan sebagai <code>-1</code>, sedangkan informasi kategorikal yang tidak tersedia direpresentasikan sebagai <code>Unspecified</code>.
+            </p>
+          </div>
+
+
+          <!-- Data Processing Pipeline -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="lowongan-pipeline-title">Data Processing &amp; Pipeline Workflow</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n="lowongan-pipeline-text">
+              Data lowongan dikumpulkan dari beberapa dataset untuk periode 2020–2025, kemudian diproses melalui beberapa tahap:
+            </p>
+            <div class="architecture-diagram">
+              <div class="arch-node">Data Gathering</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node">Data Cleaning &amp; Filtering</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node">Data Merging</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node">Text Preprocessing</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node">Information Extraction</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node">Data Normalization</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node arch-highlight">Dashboard Visualization</div>
+            </div>
+          </div>
+
+
+          <!-- Tujuan Analisis -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="lowongan-goal-title">Tujuan Analisis</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n="lowongan-goal-intro">
+              Dashboard ini dikembangkan untuk memberikan gambaran mengenai dinamika pasar kerja Data Analyst di Amerika Serikat, khususnya dalam melihat:
+            </p>
+            <div class="insights-grid">
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="trending-up-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-goal-1">Perubahan kebutuhan tenaga kerja dari tahun ke tahun</p>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="school-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-goal-2">Persyaratan tingkat pendidikan</p>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="book-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-goal-3">Bidang studi yang banyak dicari</p>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="construct-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-goal-4">Hard skill dan soft skill yang paling dibutuhkan</p>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="layers-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-goal-5">Perbedaan kebutuhan berdasarkan tingkat senioritas</p>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-goal-6">Distribusi lowongan berdasarkan lokasi</p>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="business-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-goal-7">Perusahaan dengan aktivitas rekrutmen tertinggi</p>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="newspaper-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="lowongan-goal-8">Karakteristik dan kelengkapan deskripsi pekerjaan</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Catatan & Batasan -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="lowongan-note-title">Catatan &amp; Batasan Data</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-left: 0;" data-i18n="lowongan-note-text">
+              Dashboard menampilkan data lowongan pekerjaan terbatas yang diambil hanya dari Kaggle dan tidak merepresentasikan keseluruhan pasar kerja Data Analyst di Amerika Serikat.
+            </p>
+          </div>
+
+          <!-- Link Proyek -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="lowongan-links-title">Link Proyek &amp; Akses Live</h3>
+            <div class="case-study-actions" style="justify-content: flex-start;">
+              <a href="https://dashboard-lowongan-data-analyst-as.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn-action btn-accent">
+                <ion-icon name="open-outline"></ion-icon> Live Dashboard
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/components.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/i18n.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Kingdom App - Case Study</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div data-component="sidebar"></div>
+
+    <!-- #MAIN CONTENT -->
+    <div class="main-content">
+      <div data-component="navbar" data-nav-type="detail"></div>
+
+      <!-- Case Study Wrapper -->
+      <article class="case-study-card" style="display: block;">
+        <div class="case-study-header">
+          <a href="index.html#portofolio" class="btn-back">
+            <ion-icon name="arrow-back-outline"></ion-icon> <span data-i18n="btn-back">Kembali ke Portofolio</span>
+          </a>
+        </div>
+
+        <div class="case-study">
+          <!-- 1. Hero Section -->
+          <div class="case-study-hero">
+            <h2 class="h2 article-title" style="text-transform: none;" data-i18n="animal-title">Animal Kingdom App</h2>
+            <p class="case-study-subtitle" data-i18n="animal-page-subtitle">Aplikasi pembelajaran interaktif dunia hewan yang dirancang ramah anak (kid-friendly), penuh warna, dan responsif.</p>
+            
+            <div class="project-tech-stack" style="justify-content: center;">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">Vite</span>
+              <span class="tech-badge">Tailwind CSS v4</span>
+              <span class="tech-badge">Lucide React</span>
+              <span class="tech-badge">HTML5 Audio</span>
+              <span class="tech-badge">HTML5 Video</span>
+            </div>
+
+            <div class="case-study-actions">
+              <a href="https://animalkingdom-app.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-action btn-accent">
+                <ion-icon name="open-outline"></ion-icon> <span data-i18n="animal-link-access">Akses Website</span>
+              </a>
+              <a href="https://github.com/Maritzaratnaa/animal-kingdom-app" target="_blank" rel="noopener noreferrer" class="btn-action">
+                <ion-icon name="logo-github"></ion-icon> GitHub Repository
+              </a>
+            </div>
+
+            <figure class="hero-dashboard-img slider-container" data-slider>
+              <div class="slider-track">
+                <img src="./assets/images/animal/project-animal.gif" alt="Animal Kingdom App Preview 1" loading="lazy">
+                <img src="./assets/images/animal/project-animal1.png" alt="Animal Kingdom App Preview 2" loading="lazy">
+                <img src="./assets/images/animal/project-animal2.png" alt="Animal Kingdom App Preview 3" loading="lazy">
+                <img src="./assets/images/animal/project-animal3.png" alt="Animal Kingdom App Preview 4" loading="lazy">
+              </div>
+              <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+              </div>
+            </figure>
+          </div>
+
+          <!-- 2. Overview Proyek -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="animal-overview-title">Overview Proyek</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n="animal-overview-text">
+              Animal Kingdom App adalah aplikasi pembelajaran interaktif tentang dunia hewan yang dirancang khusus ramah anak (kid-friendly), penuh warna, dan responsif. Aplikasi ini menggunakan teknologi modern React (Vite) dan framework Tailwind CSS v4 untuk menyajikan antarmuka visual yang sangat menarik, ceria, dan interaktif bagi anak-anak.
+            </p>
+
+            <div class="insights-grid" style="margin-top: 15px;">
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="albums-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="animal-feat1-title">Katalog Hewan Ceria</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="animal-feat1-text">Menampilkan 10 hewan lucu dilengkapi dengan klip video looping pendek (.mp4), fakta unik menarik, dan suara khas hewan (.mp3).</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="help-circle-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="animal-feat2-title">Kuis Tebak Suara</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="animal-feat2-text">Mini-game kuis interaktif berisikan 5 pertanyaan acak untuk menguji pengenalan suara hewan dengan skor dan umpan balik langsung.</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="trophy-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="animal-feat3-title">Papan Skor Leaderboard</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="animal-feat3-text">Menyimpan nama anak dan skor kuis tertinggi langsung ke dalam penyimpanan lokal peramban (Local Storage).</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="color-palette-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="animal-feat4-title">Desain Responsif Ceria</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="animal-feat4-text">Menggunakan kombinasi font Fredoka &amp; Nunito dari Google Fonts, bayangan ala komik, dan elemen dekorasi yang menarik bagi anak.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Metrik Ringkasan -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="animal-metrics-title">Ringkasan Sistem</h3>
+            <div class="metric-grid">
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="animal-metric1-label">Katalog Hewan</p>
+                <p class="metric-value" data-i18n="animal-metric1-value">10 Spesies</p>
+              </div>
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="animal-metric2-label">Font Khusus</p>
+                <p class="metric-value">Fredoka &amp; Nunito</p>
+              </div>
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="animal-metric3-label">CSS Version</p>
+                <p class="metric-value">Tailwind CSS v4</p>
+              </div>
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="animal-metric4-label">Kuis Pertanyaan</p>
+                <p class="metric-value" data-i18n="animal-metric4-value">5 Pertanyaan</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Arsitektur & Teknologi -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="animal-tech-title">Komponen &amp; Teknologi Utama</h3>
+            <div class="custom-table-wrapper">
+              <table class="custom-table">
+                <thead>
+                  <tr>
+                    <th data-i18n="animal-tech-col1">Komponen</th>
+                    <th data-i18n="animal-tech-col2">Teknologi / Layanan Utama</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong style="color: var(--white-2);" data-i18n="animal-tech-r1c1">Core Framework</strong></td>
+                    <td>React 19 + TypeScript, Vite 6</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: var(--white-2);" data-i18n="animal-tech-r2c1">Styling &amp; Typography</strong></td>
+                    <td>Tailwind CSS v4, Google Fonts (Fredoka &amp; Nunito)</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: var(--white-2);" data-i18n="animal-tech-r3c1">Icons</strong></td>
+                    <td>Lucide React</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: var(--white-2);" data-i18n="animal-tech-r4c1">Media Playback</strong></td>
+                    <td data-i18n="animal-tech-r4c2">HTML5 Audio (.mp3) &amp; HTML5 Video (.mp4) statis loop</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: var(--white-2);" data-i18n="animal-tech-r5c1">Penyimpanan Papan Skor</strong></td>
+                    <td>Browser Local Storage API</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- 5. Alur UX -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="animal-ux-title">Alur Pengalaman Pengguna</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n="animal-ux-text">
+              Langkah interaksi anak-anak saat menggunakan aplikasi:
+            </p>
+            <div class="architecture-diagram" style="overflow-x: auto; white-space: nowrap; gap: 10px;">
+              <div class="arch-node" style="min-width: 90px;" data-i18n="animal-flow-1">Pilih Hewan</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node" style="min-width: 90px;" data-i18n="animal-flow-2">Putar Video &amp; Suara</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node" style="min-width: 90px;" data-i18n="animal-flow-3">Kuis Tebak Suara</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node" style="min-width: 90px;" data-i18n="animal-flow-4">Input Nama Anak</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node arch-highlight" style="min-width: 90px;" data-i18n="animal-flow-5">Tampil di Leaderboard</div>
+            </div>
+          </div>
+
+          <!-- 6. Struktur Folder Media -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="animal-folder-title">Struktur Folder Media &amp; Kode</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n="animal-folder-text">
+              Struktur folder statis aset media dalam bundler Vite:
+            </p>
+            <pre style="background: var(--jet); padding: 15px; border-radius: 12px; color: var(--light-gray); font-family: monospace; font-size: var(--fs-6); line-height: 1.5; overflow-x: auto;">
+animal-kingdom-app/
+├── public/
+│   ├── sounds/                 # File audio hewan (.mp3)
+│   │   ├── cat.mp3
+│   │   ├── dog.mp3
+│   │   └── ... (10 total)
+│   └── videos/                 # Video looping hewan (.mp4)
+│       ├── cat.mp4
+│       ├── dog.mp4
+│       └── ... (10 total)
+├── src/
+│   ├── components/             # Komponen Reusable React
+│   ├── data/                   # Data hewan (animals.ts)
+│   ├── types/                  # Definisi Tipe TypeScript
+│   └── App.tsx                 # Root Component
+├── index.html
+└── package.json</pre>
+          </div>
+
+          <!-- 7. Developer Details -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="animal-dev-title">Detail Pengembang</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-left: 0;" data-i18n="animal-dev-text">
+              Aplikasi ini dikembangkan sebagai proyek pembelajaran interaktif yang berfokus pada pengalaman pengguna anak-anak dengan mengedepankan elemen audiovisual yang responsif, ceria, dan edukatif.
+            </p>
+          </div>
+
+          <!-- 8. Tautan Proyek -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="animal-links-title">Tautan Resmi</h3>
+            <div class="case-study-actions" style="justify-content: flex-start;">
+              <a href="https://animalkingdom-app.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-action btn-accent">
+                <ion-icon name="open-outline"></ion-icon> <span data-i18n="animal-link-access">Akses Website</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/components.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/i18n.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

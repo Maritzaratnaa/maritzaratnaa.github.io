@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Prediksi Harga Antam - Case Study</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div data-component="sidebar"></div>
+
+    <!-- #MAIN CONTENT -->
+    <div class="main-content">
+      <div data-component="navbar" data-nav-type="detail"></div>
+
+      <!-- Case Study Wrapper -->
+      <article class="case-study-card" style="display: block;">
+        <div class="case-study-header">
+          <a href="index.html#portofolio" class="btn-back">
+            <ion-icon name="arrow-back-outline"></ion-icon> <span data-i18n="btn-back">Kembali ke Portofolio</span>
+          </a>
+        </div>
+
+        <div class="case-study">
+          <!-- 1. Hero Section -->
+          <div class="case-study-hero">
+            <h2 class="h2 article-title" style="text-transform: none;">Dashboard Prediksi Harga Antam</h2>
+            <p class="case-study-subtitle" data-i18n="antam-page-subtitle">Dashboard untuk pemantauan harga aktual emas Antam dan prediksi harga 7 hari ke depan menggunakan model Prophet, serta pengecekan ketersediaan stok emas Antam berdasarkan butik.</p>
+            
+            <div class="project-tech-stack" style="justify-content: center;">
+              <span class="tech-badge">Streamlit</span>
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Prophet</span>
+              <span class="tech-badge">Supabase</span>
+              <span class="tech-badge">GitHub Actions</span>
+              <span class="tech-badge">BeautifulSoup</span>
+              <span class="tech-badge">Pandas</span>
+            </div>
+
+            <div class="case-study-actions">
+              <a href="https://github.com/Maritzaratnaa/forecast-harga-antam" target="_blank" rel="noopener noreferrer" class="btn-action btn-accent">
+                <ion-icon name="logo-github"></ion-icon> GitHub Repository
+              </a>
+              <a href="https://prediksi-harga-antam.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn-action">
+                <ion-icon name="open-outline"></ion-icon> Live Dashboard
+              </a>
+            </div>
+
+            <figure class="hero-dashboard-img slider-container" data-slider>
+              <div class="slider-track">
+                <img src="./assets/images/antam/project-antam.gif" alt="Dashboard Prediksi Harga Antam Preview 1" loading="lazy">
+                <img src="./assets/images/antam/project-antam1.png" alt="Dashboard Prediksi Harga Antam Preview 2" loading="lazy">
+                <img src="./assets/images/antam/project-antam2.png" alt="Dashboard Prediksi Harga Antam Preview 3" loading="lazy">
+              </div>
+              <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+              </div>
+            </figure>
+          </div>
+
+          <!-- 2. Overview -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="antam-overview-title">Overview Proyek</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n="antam-overview-text">
+              Sistem ini dirancang untuk memberikan transparansi dan proyeksi harga emas Antam secara real-time serta otomatis. Dengan menggabungkan pipeline scraping harian, model time-series forecasting, dan cloud database, pengguna dapat mengambil keputusan investasi emas dengan informasi yang lebih akurat.
+            </p>
+
+            <div class="insights-grid" style="margin-top: 15px;">
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="sync-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="antam-feat1-title">Automated Scraper</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="antam-feat1-text">Pengambilan data harga aktual dan ketersediaan stok emas Antam secara otomatis setiap hari melalui GitHub Actions.</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="trending-up-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="antam-feat2-title">AI Price Forecasting</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="antam-feat2-text">Prediksi tren harga emas untuk 7 hari ke depan dengan evaluasi performa model Prophet.</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="desktop-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="antam-feat3-title">Interactive Dashboard</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="antam-feat3-text">Visualisasi data interaktif menggunakan Streamlit yang terdiri dari Analisis &amp; Proyeksi Harga Emas serta Pengecekan Stok Emas berdasarkan Butik.</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="cloud-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="antam-feat4-title">Cloud Database</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="antam-feat4-text">Penyimpanan data tersentralisasi menggunakan Supabase (PostgreSQL).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Metrik Ringkasan -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="antam-metrics-title">Ringkasan Sistem &amp; Performa</h3>
+            <div class="metric-grid">
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="antam-metric1-label">Target Model</p>
+                <p class="metric-value">MAPE &lt; 10%</p>
+              </div>
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="antam-metric2-label">Forecast Horizon</p>
+                <p class="metric-value" data-i18n="antam-metric2-value">7 Hari</p>
+              </div>
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="antam-metric3-label">Database Tables</p>
+                <p class="metric-value" data-i18n="antam-metric3-value">5 Tabel</p>
+              </div>
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="antam-metric4-label">Jadwal Automation</p>
+                <p class="metric-value">10:25 WIB</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Arsitektur & Teknologi -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="antam-arch-title">Arsitektur &amp; Komponen Teknologi</h3>
+            <div class="custom-table-wrapper">
+              <table class="custom-table">
+                <thead>
+                  <tr>
+                    <th data-i18n="antam-arch-comp">Komponen</th>
+                    <th data-i18n="antam-arch-tech">Teknologi Utama</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong style="color: var(--white-2);">Dashboard App</strong></td>
+                    <td>Streamlit</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: var(--white-2);">Data Science &amp; Time-Series</strong></td>
+                    <td>Python, Pandas, Scikit-Learn, Prophet</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: var(--white-2);">Cloud Database</strong></td>
+                    <td>Supabase (PostgreSQL)</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: var(--white-2);">ETL Pipeline Automation</strong></td>
+                    <td>GitHub Actions (Cron Job)</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: var(--white-2);">Web Scraping</strong></td>
+                    <td>Python, BeautifulSoup4, Requests</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- 5. Workflow Sistem -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="antam-workflow-title">Workflow &amp; Pipeline Proses Data</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n="antam-workflow-text">
+              Alur pemrosesan data berjalan dari ekstraksi otomatis hingga visualisasi hasil prediksi:
+            </p>
+            <div class="architecture-diagram">
+              <div class="arch-node">Website Antam</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node">Web Scraping</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node">ETL Pipeline</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node">Supabase DB</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node">Prophet Model</div>
+              <div class="arch-arrow"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+              <div class="arch-node arch-highlight">Streamlit Dashboard</div>
+            </div>
+          </div>
+
+          <!-- 6. Otomatisasi Pipeline -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="antam-pipeline-title">Otomatisasi Pipeline Data</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-left: 0;" data-i18n-html="antam-pipeline-intro">
+              Pipeline dieksekusi secara otomatis setiap hari menggunakan <strong>GitHub Actions</strong> melalui langkah-langkah berikut:
+            </p>
+            <div class="recommendations-list" style="margin-top: 10px;">
+              <div class="recommendation-item">
+                <div class="recommendation-number">1</div>
+                <p class="recommendation-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n-html="antam-step1"><strong>Ekstraksi Data:</strong> Scraping data harga emas terbaru dan stok pecahan berdasarkan lokasi butik.</p>
+              </div>
+              <div class="recommendation-item">
+                <div class="recommendation-number">2</div>
+                <p class="recommendation-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n-html="antam-step2"><strong>Penyimpanan Database:</strong> Transformasi data dan pengiriman ke database cloud Supabase PostgreSQL.</p>
+              </div>
+              <div class="recommendation-item">
+                <div class="recommendation-number">3</div>
+                <p class="recommendation-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n-html="antam-step3"><strong>Pelatihan Model:</strong> Melatih kembali model time-series Prophet menggunakan histori data terintegrasi.</p>
+              </div>
+              <div class="recommendation-item">
+                <div class="recommendation-number">4</div>
+                <p class="recommendation-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n-html="antam-step4"><strong>Hasil Forecasting:</strong> Menghasilkan proyeksi tren dan nilai prediksi harga 7 hari ke depan.</p>
+              </div>
+            </div>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-left: 0; margin-top: 15px;" data-i18n-html="antam-cron-text">
+              Jadwal cron otomatis dikonfigurasi berjalan setiap pukul <strong>10:25 WIB (UTC+7)</strong>.
+            </p>
+          </div>
+
+          <!-- 7. Evaluasi Model -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="antam-eval-title">Evaluasi Model Forecasting</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n-html="antam-eval-text">
+              Model forecasting dievaluasi menggunakan metrik <strong>Mean Absolute Percentage Error (MAPE)</strong> untuk mengukur tingkat keakuratan hasil prediksi terhadap harga emas harian aktual.
+            </p>
+            <div class="custom-table-wrapper">
+              <table class="custom-table">
+                <thead>
+                  <tr>
+                    <th data-i18n="antam-eval-col1">Nilai MAPE</th>
+                    <th data-i18n="antam-eval-col2">Tingkat Akurasi</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong style="color: var(--white-2);">&lt; 10%</strong></td>
+                    <td><span style="color: var(--orange-yellow-crayola); font-weight: 600;" data-i18n="antam-eval-r1v2">Sangat Akurat (Highly Accurate)</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: var(--white-2);">10–20%</strong></td>
+                    <td data-i18n="antam-eval-r2v2">Baik</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: var(--white-2);">20–50%</strong></td>
+                    <td data-i18n="antam-eval-r3v2">Cukup</td>
+                  </tr>
+                  <tr>
+                    <td><strong style="color: var(--white-2);">&gt; 50%</strong></td>
+                    <td data-i18n="antam-eval-r4v2">Kurang Akurat</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- 8. Fitur Utama Dashboard -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="antam-feat-dash-title">Fitur Antarmuka Dashboard</h3>
+            <div class="recommendations-list">
+              <div class="recommendation-item">
+                <div class="recommendation-number">1</div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 8px;" data-i18n="antam-dash-f1-title">Analisis &amp; Proyeksi Harga</h4>
+                  <ul style="list-style-type: disc; margin-left: 20px; color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6;">
+                    <li style="margin-bottom: 4px;" data-i18n="antam-dash-f1-li1">Informasi harga emas Antam terkini</li>
+                    <li style="margin-bottom: 4px;" data-i18n="antam-dash-f1-li2">Visualisasi tren grafik historis</li>
+                    <li style="margin-bottom: 4px;" data-i18n="antam-dash-f1-li3">Prediksi harga 7 hari ke depan</li>
+                    <li style="margin-bottom: 4px;" data-i18n="antam-dash-f1-li4">Indikator tren kenaikan/penurunan harga</li>
+                    <li style="margin-bottom: 4px;" data-i18n="antam-dash-f1-li5">Nilai evaluasi performa model (MAPE)</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="recommendation-item">
+                <div class="recommendation-number">2</div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 8px;" data-i18n="antam-dash-f2-title">Monitoring Ketersediaan Stok</h4>
+                  <ul style="list-style-type: disc; margin-left: 20px; color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6;">
+                    <li style="margin-bottom: 4px;" data-i18n="antam-dash-f2-li1">Status stok emas per pecahan gram</li>
+                    <li style="margin-bottom: 4px;" data-i18n="antam-dash-f2-li2">Filter lokasi berdasarkan wilayah &amp; butik resmi</li>
+                    <li style="margin-bottom: 4px;" data-i18n="antam-dash-f2-li3">Informasi ketersediaan langsung di lapangan</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 9. Cloud Database Structure -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="antam-schema-title">Skema Data (Supabase PostgreSQL)</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n="antam-schema-text">
+              Data hasil scraping dan forecasting disimpan terstruktur pada 5 tabel utama:
+            </p>
+            <div class="insights-grid">
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);"><code>harga_antam_harian</code> <span data-i18n="antam-tbl1-desc">— Catatan harga emas harian</span></p>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="time-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);"><code>historis_harga_antame</code> <span data-i18n="antam-tbl2-desc">— Histori komprehensif harga</span></p>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="storefront-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);"><code>stok_antam_butik</code> <span data-i18n="antam-tbl3-desc">— Stok per butik &amp; pecahan</span></p>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="bar-chart-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);"><code>prediksi_harga_antam</code> <span data-i18n="antam-tbl4-desc">— Hasil forecast model Prophet</span></p>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;">
+                  <ion-icon name="analytics-outline"></ion-icon>
+                </div>
+                <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);"><code>detail_prediksi</code> <span data-i18n="antam-tbl5-desc">— Rincian komponen tren &amp; batas bawah/atas</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10. Project Links -->
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="antam-links-title">Link Proyek &amp; Akses Live</h3>
+            <div class="case-study-actions" style="justify-content: flex-start;">
+              <a href="https://github.com/Maritzaratnaa/forecast-harga-antam" target="_blank" rel="noopener noreferrer" class="btn-action btn-accent">
+                <ion-icon name="logo-github"></ion-icon> GitHub Repository
+              </a>
+              <a href="https://prediksi-harga-antam.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn-action">
+                <ion-icon name="open-outline"></ion-icon> Live Streamlit App
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/components.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/i18n.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

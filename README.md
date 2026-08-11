@@ -1,44 +1,35 @@
-# vCard - Personal portfolio
+﻿# Portofolio — Maritza Ratnamaya Nugroho
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+Website portofolio pribadi yang menampilkan proyek-proyek di bidang **Data Analytics** dan **Web Development**.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+---
 
-## Demo
+## Proyek yang Ditampilkan
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+| Proyek | Kategori | Teknologi |
+|---|---|---|
+| Dashboard Analisis Pasar Kerja Data Analyst AS | Data Analytics | Python, Streamlit, Pandas, Plotly |
+| Dashboard Prediksi Harga Antam | Data Analytics | Python, Streamlit, Prophet, Supabase |
+| Analisis Sentimen Program MBG | Data Analytics | Python, Streamlit, NLP |
+| ARAHIN — Sistem Navigasi Aksesibel | Web Development | React, TypeScript, Express.js, MySQL |
+| Animal Kingdom App | Web Development | React, Vite, Tailwind CSS |
 
-## Prerequisites
+---
 
-Before you begin, ensure you have met the following requirements:
+## Template
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+Website ini dikembangkan berdasarkan template open-source **vCard Personal Portfolio** oleh [codewithsadee](https://github.com/codewithsadee/vcard-personal-portfolio), dengan berbagai modifikasi dan penambahan fitur, antara lain:
 
-## Installing vCard
+- Sistem komponen dinamis (sidebar & navbar di-render via JavaScript)
+- Halaman detail case study per proyek dengan slider gambar
+- Fitur filter portofolio berdasarkan kategori
+- Dukungan multibahasa (i18n) ID/EN
+- Penyesuaian tampilan dan konten secara menyeluruh
 
-To install **vCard**, follow these steps:
+Template asli dilisensikan di bawah [MIT License](./LICENSE).
 
-Linux and macOS:
+---
 
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+## Lisensi
 
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-## Contact
-
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
-
-## License
-
-MIT
+Template dasar: &copy; 2022 codewithsadee — [MIT License](./LICENSE)
