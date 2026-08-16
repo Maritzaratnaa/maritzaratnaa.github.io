@@ -14,6 +14,8 @@ const translations = {
     'nav-portfolio'        : 'Portofolio',
     'nav-about-detail'     : 'Tentang',
     'nav-portfolio-detail' : 'Portofolio',
+    'nav-cv'               : 'CV',
+    'nav-cv-detail'        : 'CV',
     'btn-back'             : 'Kembali ke Portofolio',
 
     
@@ -48,6 +50,8 @@ const translations = {
 
     // ----- INDEX: Portfolio -----
     'portfolio-title'       : 'Portofolio',
+    'cv-title'              : 'Curriculum Vitae',
+    'cv-download'           : 'Unduh PDF',
     'filter-all'            : 'Semua',
     'filter-select-default' : 'Pilih kategori',
     'antam-title'           : 'Dashboard Prediksi Harga Antam',
@@ -332,6 +336,8 @@ const translations = {
     'nav-portfolio'        : 'Portfolio',
     'nav-about-detail'     : 'About',
     'nav-portfolio-detail' : 'Portfolio',
+    'nav-cv'               : 'CV',
+    'nav-cv-detail'        : 'CV',
     'btn-back'             : 'Back to Portfolio',
 
     // ----- INDEX: About -----
@@ -364,6 +370,8 @@ const translations = {
 
     // ----- INDEX: Portfolio -----
     'portfolio-title'       : 'Portfolio',
+    'cv-title'              : 'Curriculum Vitae',
+    'cv-download'           : 'Download PDF',
     'filter-all'            : 'All',
     'filter-select-default' : 'Select category',
     'antam-title'           : 'Antam Gold Price Prediction Dashboard',

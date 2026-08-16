@@ -87,6 +87,9 @@ const PortfolioComponents = {
           <li class="navbar-item">
             <a href="index.html#portofolio" class="navbar-link active" data-i18n="nav-portfolio-detail">Portofolio</a>
           </li>
+          <li class="navbar-item">
+            <a href="index.html#cv" class="navbar-link" data-i18n="nav-cv-detail">CV</a>
+          </li>
         </ul>
         <div class="lang-toggle" id="lang-toggle">
           <button class="lang-btn active" data-lang-btn="id">ID</button>
@@ -106,6 +109,9 @@ const PortfolioComponents = {
         </li>
         <li class="navbar-item">
           <button class="navbar-link" data-nav-link data-nav-target="portofolio" data-i18n="nav-portfolio">Portofolio</button>
+        </li>
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link data-nav-target="cv" data-i18n="nav-cv">CV</button>
         </li>
       </ul>
       <div class="lang-toggle" id="lang-toggle">

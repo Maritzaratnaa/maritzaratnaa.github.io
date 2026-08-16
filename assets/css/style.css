@@ -2728,4 +2728,39 @@ code {
   margin-top: 15px;
 }
 
+
+/*-----------------------------------*\
+  #CV
+\*-----------------------------------*/
+
+.cv-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+.cv-preview {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--jet);
+  box-shadow: var(--shadow-2);
+}
+
+.cv-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: var(--eerie-black-1);
+}
+
+@media (max-width: 768px) {
+  .cv-preview {
+    height: 500px;
+  }
+}
+
+
 
