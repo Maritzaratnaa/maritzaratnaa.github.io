@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Analisis Penyewaan Sepeda - Case Study</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div data-component="sidebar"></div>
+
+    <div class="main-content">
+      <div data-component="navbar" data-nav-type="detail"></div>
+
+      <article class="case-study-card" style="display: block;">
+        <div class="case-study-header">
+          <a href="index.html#portofolio" class="btn-back">
+            <ion-icon name="arrow-back-outline"></ion-icon> <span data-i18n="btn-back">Kembali ke Portofolio</span>
+          </a>
+        </div>
+
+        <div class="case-study">
+          <div class="case-study-hero">
+            <h2 class="h2 article-title" data-i18n="rent-title" style="text-transform: none;">Dashboard Analisis Penyewaan Sepeda</h2>
+            <p class="case-study-subtitle" data-i18n="bike-page-subtitle">Dashboard interaktif berbasis Power BI untuk menganalisis tren penyewaan sepeda berdasarkan faktor waktu (jam/bulan), kategori hari, musim, serta pengaruh variabel cuaca dan suhu.</p>
+            
+            <div class="project-tech-stack" style="justify-content: center;">
+              <span class="tech-badge">Power BI</span>
+              <span class="tech-badge">Power Query</span>
+              <span class="tech-badge">Data Visualization</span>
+              <span class="tech-badge">Time-Series Data</span>
+            </div>
+
+            <div class="case-study-actions">
+              <a href="https://github.com/Maritzaratnaa/Dashboard-Analisis-Data-Penyewaan-Sepeda" target="_blank" rel="noopener noreferrer" class="btn-action btn-accent">
+                <ion-icon name="logo-github"></ion-icon> GitHub Repository
+              </a>
+            </div>
+
+            <figure class="hero-dashboard-img slider-container" data-slider>
+              <div class="slider-track">
+                <img src="./assets/images/rent/project-rent.png" alt="Dashboard Analisis Penyewaan Sepeda" loading="lazy">
+              </div>
+            </figure>
+          </div>
+
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="bike-overview-title">Overview Proyek</h3>
+            <p class="project-desc" style="color: var(--light-gray); font-size: var(--fs-6); line-height: 1.6; margin-bottom: 15px; margin-left: 0;" data-i18n="bike-overview-text">
+              Proyek visualisasi data ini bertujuan untuk mengeksplorasi pola dan perilaku pengguna dalam menyewa sepeda. Dengan memanfaatkan dataset time-series, dashboard interaktif Power BI ini menyajikan wawasan mendalam terkait persebaran penyewa casual vs registered, peak hours harian, tren bulanan, serta dampaknya terhadap parameter lingkungan seperti musim, kondisi cuaca, suhu, dan kecepatan angin.
+            </p>
+
+            <div class="insights-grid" style="margin-top: 15px;">
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="time-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="bike-feat1-title">Time-Series Trend Analysis</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="bike-feat1-text">Pemantauan volume penyewaan per jam dan per bulan untuk mengidentifikasi jam sibuk (peak hours) dan pola musiman.</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="people-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="bike-feat2-title">User Segmentation</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="bike-feat2-text">Segmentasi pengguna antara penyewa umum (Casual) dan penyewa terdaftar (Member/Registered).</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="cloudy-night-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="bike-feat3-title">Weather & Season Impact</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="bike-feat3-text">Analisis korelasi kondisi cuaca (Cerah, Berkabut, Hujan) dan musim terhadap minat penyewaan sepeda.</p>
+                </div>
+              </div>
+              <div class="insight-card">
+                <div style="background: var(--jet); color: var(--orange-yellow-crayola); width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">
+                  <ion-icon name="options-outline"></ion-icon>
+                </div>
+                <div>
+                  <h4 style="color: var(--white-2); font-size: var(--fs-6); font-weight: var(--fw-600); margin-bottom: 4px;" data-i18n="bike-feat4-title">Interactive Filtering</h4>
+                  <p class="insight-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n="bike-feat4-text">Fitur slicer dinamis berdasarkan rentang waktu, hari kerja/libur, serta jenis musim.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="bike-metrics-title">Ringkasan Metrik Utama</h3>
+            <div class="metric-grid">
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="bike-metric1-label">Total Penyewaan</p>
+                <p class="metric-value">3.29M</p>
+              </div>
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="bike-metric2-label">Penyewaan Member</p>
+                <p class="metric-value">2.67M</p>
+              </div>
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="bike-metric3-label">Penyewaan Umum</p>
+                <p class="metric-value">620K</p>
+              </div>
+              <div class="metric-card">
+                <p class="metric-title" data-i18n="bike-metric4-label">Rerata Suhu / Windspeed</p>
+                <p class="metric-value">0.50 / 0.19</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="bike-arch-title">Struktur Data & Visualisasi</h3>
+            <div class="custom-table-wrapper">
+              <table class="custom-table">
+                <thead>
+                  <tr>
+                    <th data-i18n="bike-arch-comp">Atribut Data / Komponen</th>
+                    <th data-i18n="bike-arch-tech">Deskripsi Visualisasi Power BI</th>
+                  </tr>
+                </thead>
+                    <tbody>
+                    <tr>
+                        <td><strong style="color: var(--white-2);" data-i18n="bike-tbl-row1-comp">KPI Cards</strong></td>
+                        <td data-i18n="bike-tbl-row1-desc">Menampilkan Total Penyewaan (3.29M), Member (2.67M), Casual (620K), Rerata Suhu, & Windspeed</td>
+                    </tr>
+                    <tr>
+                        <td><strong style="color: var(--white-2);" data-i18n="bike-tbl-row2-comp">Tren Bulanan (2011 vs 2012)</strong></td>
+                        <td data-i18n="bike-tbl-row2-desc">Area Chart membandingkan pertumbuhan total pengguna per bulan antar tahun</td>
+                    </tr>
+                    <tr>
+                        <td><strong style="color: var(--white-2);" data-i18n="bike-tbl-row3-comp">Penyewa per Jam (Kerja vs Libur)</strong></td>
+                        <td data-i18n="bike-tbl-row3-desc">Line/Area Chart yang menunjukkan perbedaan peak hours pada hari kerja (jam 8 pagi & 5 sore) dan hari libur</td>
+                    </tr>
+                    <tr>
+                        <td><strong style="color: var(--white-2);" data-i18n="bike-tbl-row4-comp">Total Penyewaan per Musim</strong></td>
+                        <td data-i18n="bike-tbl-row4-desc">Donut Chart menampilkan proporsi penyewaan di musim Gugur (32.23%), Panas (27.90%), Dingin (25.56%), dan Semi (14.32%)</td>
+                    </tr>
+                    <tr>
+                        <td><strong style="color: var(--white-2);" data-i18n="bike-tbl-row5-comp">Analisis Cuaca & Suhu</strong></td>
+                        <td data-i18n="bike-tbl-row5-desc">Bar Chart & Distribution Chart memperlihatkan dampak tingkat kebasahan/cuaca dan temperatur terhadap volume sewa</td>
+                    </tr>
+                    </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="bike-insights-title">Temuan & Insight Utama</h3>
+            <div class="recommendations-list" style="margin-top: 10px;">
+              <div class="recommendation-item">
+                <div class="recommendation-number">1</div>
+                <p class="recommendation-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n-html="bike-step1"> Mayoritas pengguna sepeda adalah member terdaftar (81%), yang mengindikasikan bahwa sepeda mayoritas digunakan untuk komuter harian.</p>
+              </div>
+              <div class="recommendation-item">
+                <div class="recommendation-number">2</div>
+                <p class="recommendation-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n-html="bike-step2"> Pada hari kerja, lonjakan penyewaan terjadi pada jam berangkat (08:00) dan pulang kerja (17:00–18:00). Sementara pada hari libur, persebaran cenderung merata di siang hari (11:00–16:00).</p>
+              </div>
+              <div class="recommendation-item">
+                <div class="recommendation-number">3</div>
+                <p class="recommendation-text" style="color: var(--light-gray); font-size: var(--fs-6);" data-i18n-html="bike-step3"> Musim Gugur dan Panas mencatatkan angka penyewaan tertinggi. Kondisi cuaca cerah mendorong penyewaan maksimal, sementara cuaca hujan badai menurunkan aktivitas penyewaan secara drastis.</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="h3 case-study-section-title" data-i18n="bike-links-title">Link Proyek & Akses Report</h3>
+            <div class="case-study-actions" style="justify-content: flex-start;">
+              <a href="https://github.com/username/bike-sharing-analysis" target="_blank" rel="noopener noreferrer" class="btn-action btn-accent">
+                <ion-icon name="logo-github"></ion-icon> GitHub Repository
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/components.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/i18n.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

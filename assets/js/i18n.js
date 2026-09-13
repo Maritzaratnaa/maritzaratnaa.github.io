@@ -21,7 +21,7 @@ const translations = {
     
     // ----- INDEX: About -----
     'about-title'           : 'Tentang Saya',
-    'about-p1'              : 'Saya adalah mahasiswa <strong>Teknik Informatika Semester 6</strong> yang memiliki ketertarikan pada <strong>Data Analytics</strong> dan <strong>Web Development</strong>. Saya mendalami kedua bidang ini melalui perkuliahan, proyek akademik, dan eksplorasi mandiri. Dalam Data Analytics, saya tertarik pada proses mengolah dan menganalisis data hingga menghasilkan insight yang mudah dipahami. Sementara dalam Web Development, saya senang membangun aplikasi web yang interaktif dan dapat digunakan untuk menyelesaikan permasalahan nyata.',
+    'about-p1'              : 'Saya adalah mahasiswa <strong>Teknik Informatika Semester 7</strong> yang memiliki ketertarikan pada <strong>Data Analytics</strong> dan <strong>Web Development</strong>. Saya mendalami kedua bidang ini melalui perkuliahan, proyek akademik, dan eksplorasi mandiri. Dalam Data Analytics, saya tertarik pada proses mengolah dan menganalisis data hingga menghasilkan insight yang mudah dipahami. Sementara dalam Web Development, saya senang membangun aplikasi web yang interaktif dan dapat digunakan untuk menyelesaikan permasalahan nyata.',
     'about-p2'              : 'Saya terus mengembangkan kemampuan melalui berbagai proyek dan pengalaman baru, serta terbuka untuk <strong>peluang magang, kolaborasi, dan proyek</strong> di bidang Data Analytics maupun Web Development.',
 
     'overview-edu-label'    : 'Pendidikan',
@@ -62,6 +62,8 @@ const translations = {
     'arahin-desc'           : 'Platform navigasi transportasi publik inovatif yang dirancang khusus untuk membantu kelompok rentan dan penyandang disabilitas dalam bermobilitas secara mandiri.',
     'animal-title'          : 'Animal Kingdom App',
     'animal-desc'           : 'Aplikasi pembelajaran interaktif dunia hewan yang dirancang ramah anak (kid-friendly), penuh warna, dan responsif.',
+    'rent-title'            : 'Dashboard Analisis Penyewaan Sepeda',
+    'rent-desc'             : 'Dashboard interaktif berbasis Power BI untuk menganalisis tren penyewaan sepeda berdasarkan faktor waktu (jam/bulan), kategori hari, musim, serta pengaruh variabel cuaca dan suhu.',
     'btn-case-study'        : 'Lihat Case Study',
 
     // ----- DETAIL ANTAM -----
@@ -321,6 +323,54 @@ const translations = {
     'lowongan-note-title'      : 'Catatan & Batasan',
     'lowongan-note-text'       : 'Dashboard menampilkan data lowongan pekerjaan terbatas yang diambil hanya dari Kaggle dan tidak merepresentasikan keseluruhan pasar kerja Data Analyst di Amerika Serikat.',
     'lowongan-links-title'     : 'Link Proyek & Akses Live',
+
+    // -------- DETAIL RENT ---------
+    'bike-page-subtitle': 'Dashboard interaktif berbasis Power BI untuk menganalisis tren penyewaan sepeda berdasarkan faktor waktu (jam/bulan), kategori hari, musim, serta pengaruh variabel cuaca dan suhu.',
+
+    // Overview
+    'bike-overview-title': 'Overview Proyek',
+    'bike-overview-text': 'Proyek visualisasi data ini bertujuan untuk mengeksplorasi pola dan perilaku pengguna dalam menyewa sepeda. Dengan memanfaatkan dataset time-series, dashboard interaktif Power BI ini menyajikan wawasan mendalam terkait persebaran penyewa casual vs registered, peak hours harian, tren bulanan, serta dampaknya terhadap parameter lingkungan seperti musim, kondisi cuaca, suhu, dan kecepatan angin.',
+
+    // Features / Highlights
+    'bike-feat1-title': 'Time-Series Trend Analysis',
+    'bike-feat1-text': 'Pemantauan volume penyewaan per jam dan per bulan untuk mengidentifikasi jam sibuk (peak hours) dan pola musiman.',
+    'bike-feat2-title': 'User Segmentation',
+    'bike-feat2-text': 'Segmentasi pengguna antara penyewa umum (Casual) dan penyewa terdaftar (Member/Registered).',
+    'bike-feat3-title': 'Weather & Season Impact',
+    'bike-feat3-text': 'Analisis korelasi kondisi cuaca (Cerah, Berkabut, Hujan) dan musim terhadap minat penyewaan sepeda.',
+    'bike-feat4-title': 'Interactive Filtering',
+    'bike-feat4-text': 'Fitur slicer dinamis berdasarkan rentang waktu, hari kerja/libur, serta jenis musim.',
+
+    // Metrics Summary
+    'bike-metrics-title': 'Ringkasan Metrik Utama',
+    'bike-metric1-label': 'Total Penyewaan',
+    'bike-metric2-label': 'Penyewaan Member',
+    'bike-metric3-label': 'Penyewaan Umum',
+    'bike-metric4-label': 'Rerata Suhu / Windspeed',
+
+    // Architecture / Table
+    'bike-arch-title': 'Struktur Data & Visualisasi',
+    'bike-arch-comp': 'Atribut Data / Komponen',
+    'bike-arch-tech': 'Deskripsi Visualisasi Power BI',
+    'bike-tbl-row1-comp': 'KPI Cards',
+    'bike-tbl-row1-desc': 'Menampilkan Total Penyewaan (3.29M), Member (2.67M), Casual (620K), Rerata Suhu, & Windspeed',
+    'bike-tbl-row2-comp': 'Tren Bulanan (2011 vs 2012)',
+    'bike-tbl-row2-desc': 'Area Chart membandingkan pertumbuhan total pengguna per bulan antar tahun',
+    'bike-tbl-row3-comp': 'Penyewa per Jam (Kerja vs Libur)',
+    'bike-tbl-row3-desc': 'Line/Area Chart yang menunjukkan perbedaan peak hours pada hari kerja (jam 8 pagi & 5 sore) dan hari libur',
+    'bike-tbl-row4-comp': 'Total Penyewaan per Musim',
+    'bike-tbl-row4-desc': 'Donut Chart menampilkan proporsi penyewaan di musim Gugur (32.23%), Panas (27.90%), Dingin (25.56%), dan Semi (14.32%)',
+    'bike-tbl-row5-comp': 'Analisis Cuaca & Suhu',
+    'bike-tbl-row5-desc': 'Bar Chart & Distribution Chart memperlihatkan dampak tingkat kebasahan/cuaca dan temperatur terhadap volume sewa',
+
+    // Key Insights
+    'bike-insights-title': 'Temuan & Insight Utama',
+    'bike-step1': '<strong>Dominasi Pengguna Member:</strong> Mayoritas pengguna sepeda adalah member terdaftar (81%), yang mengindikasikan bahwa sepeda mayoritas digunakan untuk komuter harian.',
+    'bike-step2': '<strong>Pola Jam Sibuk (Peak Hours):</strong> Pada hari kerja, lonjakan penyewaan terjadi pada jam berangkat (08:00) dan pulang kerja (17:00–18:00). Sementara pada hari libur, persebaran cenderung merata di siang hari (11:00–16:00).',
+    'bike-step3': '<strong>Pengaruh Faktor Musim & Cuaca:</strong> Musim Gugur dan Panas mencatatkan angka penyewaan tertinggi. Kondisi cuaca cerah mendorong penyewaan maksimal, sementara cuaca hujan badai menurunkan aktivitas penyewaan secara drastis.',
+
+    // Links
+    'bike-links-title': 'Link Proyek & Akses Report'
   },
 
   en: {
@@ -342,11 +392,11 @@ const translations = {
 
     // ----- INDEX: About -----
     'about-title'           : 'About Me',
-    'about-p1'              : 'I am a <strong>6th-semester Computer Science student</strong> with an interest in <strong>Data Analytics</strong> and <strong>Web Development</strong>. I explore both fields through coursework, academic projects, and self-driven learning. In Data Analytics, I enjoy working with data to uncover patterns and generate meaningful insights. In Web Development, I enjoy building interactive web applications that can be used to solve real-world problems.',
+    'about-p1'              : 'I am a <strong>7th-semester Computer Science student</strong> with an interest in <strong>Data Analytics</strong> and <strong>Web Development</strong>. I explore both fields through coursework, academic projects, and self-driven learning. In Data Analytics, I enjoy working with data to uncover patterns and generate meaningful insights. In Web Development, I enjoy building interactive web applications that can be used to solve real-world problems.',
     'about-p2'              : 'I continue to develop my skills through various projects and new experiences, and I am open to <strong>internship opportunities, collaborations, and projects</strong> in Data Analytics and Web Development.',
 
     'overview-edu-label'    : 'Education',
-    'overview-edu-val'      : 'B.S. Computer Science (Sem. 6)',
+    'overview-edu-val'      : 'B.S. Computer Science (Sem. 7)',
     'overview-focus-label'  : 'Primary Focus',
     'overview-focus-val'   : 'Data Analytics & Web Dev',
     'overview-stack-label'  : 'Core Tech Stack',
@@ -382,6 +432,8 @@ const translations = {
     'arahin-desc'           : 'An innovative public transportation navigation platform specially designed to help vulnerable groups and people with disabilities to travel independently.',
     'animal-title'          : 'Animal Kingdom App',
     'animal-desc'           : 'An interactive animal kingdom learning app designed to be kid-friendly, colorful, and responsive.',
+    'rent-title'            : 'Bike Sharing Data Analysis Dashboard',
+    'rent-desc'             : 'Interactive Power BI dashboard for analyzing bike sharing trends based on temporal factors (hourly/monthly), day categories, seasonality, and the impact of weather conditions and temperature.',
     'btn-case-study'        : 'View Case Study',
 
     // ----- DETAIL ANTAM -----
@@ -641,6 +693,55 @@ const translations = {
     'lowongan-note-title'      : 'Notes & Limitations',
     'lowongan-note-text'       : 'The dashboard displays limited job posting data sourced solely from Kaggle and does not represent the entire Data Analyst job market in the United States.',
     'lowongan-links-title'     : 'Project Links & Live Access',
+
+
+    // --------- DETAIL RENT ----------
+    'bike-page-subtitle': 'An interactive Power BI dashboard for analyzing bike sharing trends based on temporal factors (hourly/monthly), day categories, seasonality, as well as weather conditions and temperature.',
+
+    // Overview
+    'bike-overview-title': 'Project Overview',
+    'bike-overview-text': 'This data visualization project aims to explore user patterns and behaviors in bike rental services. Leveraging a time-series dataset, this interactive Power BI dashboard provides deep insights into casual vs. registered user distribution, daily peak hours, monthly trends, and the impact of environmental factors such as season, weather condition, temperature, and wind speed.',
+
+    // Features / Highlights
+    'bike-feat1-title': 'Time-Series Trend Analysis',
+    'bike-feat1-text': 'Monitoring hourly and monthly rental volumes to identify peak hours and seasonal patterns.',
+    'bike-feat2-title': 'User Segmentation',
+    'bike-feat2-text': 'Segmenting users into casual riders and registered members.',
+    'bike-feat3-title': 'Weather & Season Impact',
+    'bike-feat3-text': 'Analyzing the correlation between weather conditions (Clear, Mist, Rain) and seasons with rental demand.',
+    'bike-feat4-title': 'Interactive Filtering',
+    'bike-feat4-text': 'Dynamic slicers filtering by date ranges, working days/weekends, and seasonal categories.',
+
+    // Metrics Summary
+    'bike-metrics-title': 'System & Metric Summary',
+    'bike-metric1-label': 'Total Rentals',
+    'bike-metric2-label': 'Member Rentals',
+    'bike-metric3-label': 'Casual Rentals',
+    'bike-metric4-label': 'Avg Temp / Windspeed',
+
+    // Architecture / Table
+    'bike-arch-title': 'Data Structure & Visualization',
+    'bike-arch-comp': 'Data Attributes / Components',
+    'bike-arch-tech': 'Power BI Visualization Description',
+    'bike-tbl-row1-comp': 'KPI Cards',
+    'bike-tbl-row1-desc': 'Displays Total Rentals (3.29M), Member (2.67M), Casual (620K), Avg Temp, & Windspeed',
+    'bike-tbl-row2-comp': 'Monthly Trend (2011 vs 2012)',
+    'bike-tbl-row2-desc': 'Area Chart comparing total user growth per month across years',
+    'bike-tbl-row3-comp': 'Rentals per Hour (Working vs Holiday)',
+    'bike-tbl-row3-desc': 'Line/Area Chart showing peak hour differences on working days (8 AM & 5 PM) vs weekends/holidays',
+    'bike-tbl-row4-comp': 'Total Rentals per Season',
+    'bike-tbl-row4-desc': 'Donut Chart showing rental proportions in Fall (32.23%), Summer (27.90%), Winter (25.56%), and Spring (14.32%)',
+    'bike-tbl-row5-comp': 'Weather & Temperature Analysis',
+    'bike-tbl-row5-desc': 'Bar Chart & Distribution Chart illustrating the effect of humidity/weather and temperature on rental volume',
+
+    // Key Insights
+    'bike-insights-title': 'Key Insights & Findings',
+    'bike-step1': '<strong>Member Dominance:</strong> The majority of bike users are registered members (81%), indicating that bicycles are primarily used for daily commuting.',
+    'bike-step2': '<strong>Peak Hour Patterns:</strong> On working days, rental surges occur during morning commute (08:00) and evening return (17:00–18:00). On holidays/weekends, usage is evenly distributed during midday (11:00–16:00).',
+    'bike-step3': '<strong>Seasonal & Weather Impact:</strong> Fall and Summer record the highest rental counts. Clear weather drives maximum rentals, while rainy/stormy weather significantly reduces activity.',
+
+    // Links
+    'bike-links-title': 'Project Links & Access'
   }
 };
 
